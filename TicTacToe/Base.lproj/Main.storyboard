@@ -170,7 +170,7 @@
                     </view>
                     <connections>
                         <outlet property="a1" destination="eIb-Xe-OfV" id="w0x-YE-ecC"/>
-                        <outlet property="a2" destination="TU6-PZ-Jxr" id="deR-Pb-Li7"/>
+                        <outlet property="a2" destination="pso-EW-1Ng" id="w3b-yc-KQT"/>
                         <outlet property="a3" destination="TU6-PZ-Jxr" id="sLR-09-1eE"/>
                         <outlet property="b1" destination="dhX-BT-zkG" id="TRh-M6-tI5"/>
                         <outlet property="b2" destination="SXy-yY-Pg6" id="WWU-7c-hdN"/>
