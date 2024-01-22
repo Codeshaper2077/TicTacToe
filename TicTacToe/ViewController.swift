@@ -46,9 +46,11 @@ class ViewController: UIViewController {
         if(sender.title(for: .normal) == nil) {
             if (currentTurn == Turn.Nought) {
                 sender.setTitle(NOUGHT, for: .normal)
+                currentTurn = Turn.Cross
                 turnLabel.text = CROSS
             } else if (currentTurn == Turn.Cross) {
                 sender.setTitle(CROSS, for: .normal)
+                currentTurn = Turn.Nought
                 turnLabel.text = NOUGHT
             }
         }
